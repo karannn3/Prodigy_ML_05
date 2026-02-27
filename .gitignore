@@ -1,0 +1,27 @@
+# Dataset folders
+data/
+dataset/
+train/
+test/
+
+# Images
+*.jpg
+*.png
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
