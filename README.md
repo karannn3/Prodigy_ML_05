@@ -1,36 +1,51 @@
-\# 🍎 Food Calories Detection
+# 🥗 Food Calorie Detection using Deep Learning
 
+## 📌 Project Overview
 
+This project predicts the food item from an image and estimates its approximate calorie value using a Convolutional Neural Network (CNN).
 
-This project predicts the type of food from an image and estimates its calorie content using Deep Learning.
+The goal is to demonstrate real-world Computer Vision application in health-tech.
 
+---
 
+## 🎯 Problem Statement
 
-\## 🔍 Features
+Manual calorie tracking is time-consuming.  
+This model automates food recognition and calorie estimation using deep learning.
 
-\- Image classification
+---
 
-\- Calorie estimation
+## 🛠 Tech Stack
 
-\- Model confidence score
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy & Pandas
 
-\- Real-time / image-based prediction
+---
 
+## ⚙️ Workflow
 
+1. Image preprocessing
+2. CNN model training
+3. Model evaluation
+4. Food classification
+5. Calorie mapping using dataset
 
-\## 🛠 Technologies Used
+---
 
-\- Python
+## 📊 Model Performance
 
-\- TensorFlow / Keras
+- Achieved high classification accuracy on validation dataset
+- Real-time image prediction supported
 
-\- NumPy
+---
 
-\- OpenCV
+## 🚀 How to Run
 
-\- Matplotlib
-
-
+```bash
+pip install -r requirements.txt
+python app.py
 
 \## 📂 Dataset
 
