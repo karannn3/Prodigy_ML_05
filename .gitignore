@@ -25,3 +25,12 @@ __pycache__/
 # Virtual environment
 venv/
 env/
+
+# Keep required deployment files
+!artifacts/
+!artifacts/food11_model.keras
+!artifacts/class_indices.json
+
+!data/
+data/*
+!data/calories.csv
